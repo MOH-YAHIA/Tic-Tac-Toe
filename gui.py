@@ -69,7 +69,7 @@ class TicTacToeGUI:
             for j in range(3):
                 self.buttons[i][j].config(text=' ', state='normal')
 
-if __name__ == "__main__":
-    root = tk.Tk()
-    app = TicTacToeGUI(root)
-    root.mainloop()
+##if __name__ == "__main__":
+root = tk.Tk()
+app = TicTacToeGUI(root)
+root.mainloop()
